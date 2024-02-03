@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>document</title>
+    <style>
+        *{
+            margin: 5px;
+            padding: 5px;
+        }
+
+        div.box{
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            text-align: center;
+            line-height: 100px;
+        }
+        div.box:hover{
+            width: 100px;
+            height: 100px;
+            background-color: aqua;
+        }
+
+        
+        div.box:hover{
+            width: 100px;
+            height: 100px;
+            background-color: yellowgreen;
+            
+        }
+        div.box.circle{
+            width: 100px;
+            height: 100px;
+            background-color: magenta;
+            border-radius: 100px;
+            margin-top: 15px;
+            text-align: center;
+            line-height: 100px;
+        }
+        div.box.circle:hover{
+            width: 100px;
+            height: 100px;
+            background-color: yellow;
+            border-radius: 0px;
+        }
+        span.box{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+            display: block;
+            margin-top: 15px;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            font-style: italic;
+            text-align: center;
+            line-height: 100px;
+            
+        }
+
+        a{
+            display: inline-block;
+            width: 100px;
+            height: 100px;
+            text-align: center;
+           
+        }
+
+        span.box:hover{
+            width: 100px;
+            height: 100px;
+            background-color: green;
+            border-radius: 0px;
+            display:inline-block;
+            border-radius: 100px;
+    }
+
+    
+    </style>
+</head>
+<body>
+    
+    <div class="box circle">1</div>
+    <span class="box">2</span>
+    <div class="box">3</div>
+</body>
+</html>
